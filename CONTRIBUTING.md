@@ -1,26 +1,35 @@
 # Contributing
 
-Thanks for helping make this directory more useful and accurate.
+Help make the directory larger and more useful while keeping evidence and evaluation status clear.
 
-## Add an app
+## Add a reviewed project
 
-Open a pull request that adds one bullet under the best fitting category in `README.md`. Use this format:
+Add a JSON object on one line to data/curated.jsonl:
 
-```markdown
-- **[App name](APP_OR_REPOSITORY_URL)** — One sentence about what it does. [Build evidence](FIRST_PARTY_EVIDENCE_URL) says how AI coding tools were used. **Checked:** YYYY-MM-DD.
-```
+~~~json
+{"id":"curated:project-slug","name":"Project name","description":"Factual one-sentence description.","category":"Business & Productivity","project_kind":"app","project_url":"https://example.com/","repository_url":"https://github.com/owner/repo","build_evidence_url":"https://example.com/creator-build-story","source_platforms":["github","web","x"],"build_tools_reported":["Tool name"],"checked_at":"YYYY-MM-DD","evidence_note":"What the first-party source says."}
+~~~
 
-The app link can be a live site, store page, public demo, or source repository with enough information to inspect or run the project. Link to the creator's own post, project page, or repository text for the build evidence. If the same URL serves as both the app and evidence, say so clearly.
+Use only the platform names that apply. At least one public first-party source must say how AI coding tools were used. A project can be added to the raw lead corpus before that evidence is found, but it must remain marked unreviewed.
 
-## Inclusion checks
+## Add discovery leads
 
-- The project is software people can try, install, or inspect. Builder tools, tutorials, and directories belong in a separate resources section, not in the app list.
-- A first-party public source says that AI coding tools played a meaningful role in the build. A visual guess, third-party speculation, or automated detector result is not enough.
-- The description is short and factual. Do not add unverified claims about users, revenue, performance, safety, or product quality.
-- Check that the linked project is reachable on the date you submit the entry. Use a source repository link when a live product is unavailable.
-- Use one canonical entry per project. Add alternative app, code, and X links in the same entry when they help readers.
-- Keep the creator's wording and attribution fair. Do not include private information or copy images and other assets without permission.
+For unreviewed web or X leads, add one JSON object per line to data/raw/external-leads.jsonl. Keep the original project URL, discovery post/article URL, platform, discovery date, and a short factual note. The generated catalog will keep these as unreviewed source leads. A launch post, search result, or third-party claim can help discovery, but it does not verify AI authorship or product quality.
 
-## Corrections and unavailable projects
+## Classification and review
 
-Open an issue or pull request with the replacement source and the date you checked it. If a project goes offline, update its status in the entry instead of silently removing its history.
+- Automated categories and project kinds are search aids. Correct them through the rules in scripts/build_catalog.py or by adding a human-reviewed record.
+- ai_slop_screen_signals lists observable metadata signals such as missing descriptions, no homepage link, very small repository size, or template/demo wording. Do not treat the screen as proof of generated origin or poor quality.
+- For a human app evaluation, record separate results for build evidence, reachability, functionality, user experience, maintenance, and security/privacy. Include the date, the exact project version or URL, and concrete findings.
+- Keep unavailable projects in the record with their last known status; do not silently erase history.
+- Do not copy another directory's bulk dataset or private information. Link to the original project and evidence.
+
+## Regenerate generated files
+
+After editing the curated file or classifier, run:
+
+~~~powershell
+python scripts/build_catalog.py
+~~~
+
+When refreshing GitHub metadata, run python scripts/collect_github.py first. Review the resulting snapshot and query provenance before submitting it.

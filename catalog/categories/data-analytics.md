@@ -1,0 +1,62 @@
+# Data & Analytics
+
+56 GitHub repository candidates. These are machine-screened leads, not verified app listings.
+
+| Project | Summary | Kind | Stars | Slop screen |
+|---|---|---:|---:|---|
+| [2A202600159-NguyenHoangKhaiMinh-Day23](https://github.com/A20K-Vin/2A202600159-NguyenHoangKhaiMinh-Day23) | AICB Phase 2 Track 2 Day 23 — Monitoring & Observability Stack. 7-service Docker Compose lab (Prometheus, Grafana, Loki, Jaeger, Alertmanager, OTel Collector, FastAPI) with 5 numbered tracks: instrument, dashboards + alerts, tracing + logs, drift detection, cross-day integration. | app_candidate | 0 | some_signals_review (2 signals) |
+| [aquilagraph](https://github.com/JargeZ/aquilagraph) | Explore your codebase as an interactive graph—structure and relationships at a glance. Python, JS, TS, TSX. | website_candidate | 0 | few_or_no_signals (1 signals) |
+| [blog](https://github.com/youerning/blog) | 文章列表 | website_candidate | 197 | few_or_no_signals (0 signals) |
+| [buckle-up](https://github.com/bmortimer/buckle-up) | Hosted at whohasthebelt.com; Tracking the lineal championships across the NBA, WNBA, NHL, and PWHL | website_candidate | 0 | few_or_no_signals (1 signals) |
+| [cb-monitor](https://github.com/NengjiangLunpi/cb-monitor) | Convertible Bond Redemption Calendar & Market Data | website_candidate | 1 | some_signals_review (2 signals) |
+| [CBoard](https://github.com/TuiQiao/CBoard) | An easy to use, self-service open BI reporting and BI dashboard platform. | app_candidate | 3098 | few_or_no_signals (0 signals) |
+| [Database-backup-tool](https://github.com/wulvfeng/Database-backup-tool) | windows链接mysql备份所有数据库表，转化为对应的sql文件，支持定时任务异步备份 | app_candidate | 1 | multiple_signals_review_first (3 signals) |
+| [databasus](https://github.com/databasus/databasus) | PostgreSQL backup tool with Point-In-Time-Recovery and restore verification | app_candidate | 9177 | few_or_no_signals (0 signals) |
+| [datamap](https://github.com/gexijin/datamap) | DataMap is a browser-based app for visualizing data using heatmaps, PCA plots, and t-SNE plots. | app_candidate | 63 | few_or_no_signals (0 signals) |
+| [day-cycle-chart](https://github.com/pararang/day-cycle-chart) | chart generator to represent the 24 hours activities in a dual circle pie chart | website_candidate | 0 | few_or_no_signals (1 signals) |
+| [dis08-ws2526](https://github.com/irgroup-classrooms/dis08-ws2526) | [DIS08 / OR92] - Data Modeling - Winter Semester 2025/26 | unknown | 0 | multiple_signals_review_first (3 signals) |
+| [dockmon](https://github.com/darthnorse/dockmon) | DockMon - Modern Docker container monitoring with auto-restart and alerts | unknown | 1544 | few_or_no_signals (1 signals) |
+| [Epimodeler](https://github.com/deluluscientist/Epimodeler) | Multi-Model Epidemic Simulator for outbreaks | website_candidate | 0 | few_or_no_signals (1 signals) |
+| [Fairy-Zenless-Zone-Zero-Study-Partner](https://github.com/Arizzit729/Fairy-Zenless-Zone-Zero-Study-Partner) | A study companion inspired by Fairy from Zenless Zone Zero, featuring voice interactions, work/break reminders, task tracking, achievements, and productivity analytics. Runs directly in your browser, with no installation required. | app_candidate | 0 | some_signals_review (2 signals) |
+| [GANTT_MAKER](https://github.com/nikilpatel94/GANTT_MAKER) | Vibe coded Gantt Chart maker in python. | unknown | 0 | multiple_signals_review_first (3 signals) |
+| [GenAI-Superstream](https://github.com/ruvnet/GenAI-Superstream) | Agentic Engineering for Data Analysis | unknown | 62 | few_or_no_signals (1 signals) |
+| [gsMap](https://github.com/JianYang-Lab/gsMap) | Integrating GWAS and spatial transcriptomics for spatially resolved mapping of cells associated with human complex traits. | app_candidate | 226 | few_or_no_signals (0 signals) |
+| [hackathon-dashboard](https://github.com/cheesejaguar/hackathon-dashboard) | Made this to monitor my team's progress at the YC Agents hackathon | app_candidate | 0 | some_signals_review (2 signals) |
+| [HANAMI-PROJECT](https://github.com/anonsann/HANAMI-PROJECT) | No description supplied | website_candidate | 0 | some_signals_review (2 signals) |
+| [iron-verifiable-credentials](https://github.com/filip26/iron-verifiable-credentials) | Standards-compliant, modular W3C Verifiable Credentials Data Integrity, and secure cryptographic primitives. | website_candidate | 22 | few_or_no_signals (0 signals) |
+| [Job-Tracker](https://github.com/Kowayz/Job-Tracker) | Dashboard personnel pour suivre ses candidatures de stage — SPA vanilla sans backend | app_candidate | 0 | few_or_no_signals (1 signals) |
+| [JTs-Hud](https://github.com/JohnTimmermann/JTs-Hud) | JTs Hud Manager (formerly OpenHud) uses the CS2 GSI and a node server with websockets to send data to a react client. | app_candidate | 224 | few_or_no_signals (1 signals) |
+| [LetaDial](https://github.com/LetaLab/LetaDial) | 100% vibe coded, personal speed dial dashboard - self-hosted, private, fast.  A browser speed dial replacement you host yourself. Groups, thumbnails, 2FA, dark mode, import / export - no tracking, no ads, no cloud. | app_candidate | 0 | few_or_no_signals (1 signals) |
+| [life-perspective](https://github.com/eruffaldi/life-perspective) | Personal life visualization across family. No server needed, all driven by user provided JSON | website_candidate | 0 | few_or_no_signals (1 signals) |
+| [llms.txt](https://github.com/fireproof-storage/llms.txt) | Documentation for LLMs to use Fireproof | website_candidate | 1 | few_or_no_signals (1 signals) |
+| [marketbubble](https://github.com/debutdev/marketbubble) | MarketBubble vibecoding challenge dashboard | app_candidate | 1 | few_or_no_signals (1 signals) |
+| [Memento_mortuorum](https://github.com/HubTou/Memento_mortuorum) | Recherche dans la base INSEE des personnes décédées depuis 1970 | app_candidate | 0 | few_or_no_signals (1 signals) |
+| [myanon](https://github.com/ppomes/myanon) | A mysqldump anonymizer | website_candidate | 132 | few_or_no_signals (0 signals) |
+| [nams-thesis-fuzzy](https://github.com/pararang/nams-thesis-fuzzy) | A specialized data processing tool designed to help with Fuzzy Delphi Method calculations for thesis research data analysis. Then extended with some new features for data processing with different method. | app_candidate | 0 | some_signals_review (2 signals) |
+| [NATS-Insight](https://github.com/seralaci/NATS-Insight) | NATS Insight is an intuitive and efficient web-based GUI for NATS. | unknown | 0 | some_signals_review (2 signals) |
+| [NetPulse](https://github.com/Akila-G05/NetPulse) | Android network utility app (Expo + React Native) with speed testing, latency pinging, data-usage tracking, and a custom native ping module with foreground services. | app_candidate | 1 | some_signals_review (2 signals) |
+| [next-shadcn-admin-dashboard](https://github.com/arhamkhnz/next-shadcn-admin-dashboard) | Modern Admin Dashboard Template built with Shadcn UI and Next.js 16 | template_or_demo | 3194 | few_or_no_signals (1 signals) |
+| [next-shadcn-admin-dashboard-baseui](https://github.com/arhamkhnz/next-shadcn-admin-dashboard-baseui) | Modern Admin Dashboard Template built with Shadcn UI on Base UI and Next.js 16 | template_or_demo | 250 | few_or_no_signals (1 signals) |
+| [Nutify](https://github.com/DartSteven/Nutify) | Modern web-based UPS monitoring system with real-time data visualization, alerts, and comprehensive reporting. Docker-ready with multi-architecture support. | unknown | 865 | few_or_no_signals (1 signals) |
+| [openHop_RepeaterUI](https://github.com/openhop-dev/openHop_RepeaterUI) | Web dashboard for pyMC_Repeater — manage and monitor your MeshCore repeater from the browser | app_candidate | 9 | few_or_no_signals (1 signals) |
+| [orbital-tomb](https://github.com/itsarnxv/orbital-tomb) | Dead satellite debris removal planner — 3D mission control dashboard built for ISRO NETRA. Next.js 14 + Three.js + glassmorphism UI. | app_candidate | 1 | few_or_no_signals (1 signals) |
+| [parallel-disk-usage](https://github.com/KSXGitHub/parallel-disk-usage) | Highly parallelized, blazing fast directory tree analyzer | website_candidate | 739 | few_or_no_signals (0 signals) |
+| [PerformanceOverlay](https://github.com/dexteee-r/PerformanceOverlay) | WIDGET-Monitor_Perfomance_Overlay is an ultra-lightweight, transparent system monitoring widget for Windows 11.  Built in native C with zero dependencies, it displays real-time PC performance metrics (CPU, RAM, GPU, Disk) directly on your screen with near-zero resource consumption (< 1% CPU, ~2 MB RAM). | unknown | 0 | some_signals_review (2 signals) |
+| [personal-web-site](https://github.com/jagudelol/personal-web-site) | Personal academic website · digital humanities, philosophy & data science | app_candidate | 0 | few_or_no_signals (1 signals) |
+| [pmss-fleet-manager](https://github.com/AlteredParadox/pmss-fleet-manager) | Fleet Management for Pulsedmedia PMSS seedboxes/storageboxes | app_candidate | 1 | some_signals_review (2 signals) |
+| [polestarlize](https://github.com/DSTech-IT-DE/polestarlize) | Visualize your Polestar Journey Log Exports. Support for other Car-Brands is planned. | website_candidate | 0 | few_or_no_signals (1 signals) |
+| [PortfolioWebsite](https://github.com/ANrajin/PortfolioWebsite) | Vibe coded with Antigravity. | app_candidate | 0 | few_or_no_signals (1 signals) |
+| [pyfanedit](https://github.com/LeMetadatarr/pyfanedit) | Python scraping client for fanedit.org / IFDB — emits typed mediavocab Releases with VariantKind, source-format, and FANEDIT_OF lineage | unknown | 0 | some_signals_review (2 signals) |
+| [RaceMemoir](https://github.com/Gitjasonjin/RaceMemoir) | 🏔️ 虚拟的赛事记忆收藏板，在无限画布上收藏奖牌、照片与路线，用红线串联每段山野旅程。 | website_candidate | 0 | few_or_no_signals (1 signals) |
+| [redis_migrate](https://github.com/perspective-daily/redis_migrate) | One-shot SCAN→DUMP→RESTORE migration of Redis/Valkey data between instances, no RDB files or replication required | unknown | 0 | multiple_signals_review_first (3 signals) |
+| [Satellite-Simulation](https://github.com/laine-goldmacher/Satellite-Simulation) | Vibecoded simulation of current satellites in orbit, option to toggle on proposed SpaceX orbital data centers | unknown | 0 | multiple_signals_review_first (3 signals) |
+| [security-monitor](https://github.com/mikeonthemike/security-monitor) | A lightweight security monitoring tool for nodejs projects | app_candidate | 1 | multiple_signals_review_first (3 signals) |
+| [sqlpe](https://github.com/eruffaldi/sqlpe) | Starting from the great idea of sqlelf this repository proposes a SQLite database for PE executables | unknown | 0 | multiple_signals_review_first (3 signals) |
+| [SupaRipper](https://github.com/NicolasPauferro/SupaRipper) | A supabase Data Extractor (Supabase is highly used in vibecode, so you know...) | unknown | 44 | few_or_no_signals (1 signals) |
+| [tanstack-shadcn-admin-dashboard](https://github.com/arhamkhnz/tanstack-shadcn-admin-dashboard) | Modern Admin Dashboard Template built with Shadcn UI and TanStack Start | template_or_demo | 55 | few_or_no_signals (1 signals) |
+| [Thailand-Flood-Tracker](https://github.com/Noobmaster-3443/Thailand-Flood-Tracker) | No description supplied | website_candidate | 0 | some_signals_review (2 signals) |
+| [UIDAI-Data-Hackathon-2026](https://github.com/Maco1800/UIDAI-Data-Hackathon-2026) | A data-driven audit of the UIDAI ecosystem utilizing geospatial stress modeling and temporal continuity filters to identify operational bottlenecks and service dark zones. | app_candidate | 0 | some_signals_review (2 signals) |
+| [v0-BrontoVibe](https://github.com/bronto-community/v0-BrontoVibe) | A modern log exploration and observability dashboard for Bronto, built with Next.js 15 and designed for the Vercel platform. | app_candidate | 1 | some_signals_review (2 signals) |
+| [vibe-dashboard](https://github.com/voidzero-dev/vibe-dashboard) | No description supplied | app_candidate | 69 | few_or_no_signals (1 signals) |
+| [webzfs](https://github.com/webzfs/webzfs) | A modern web-based management interface for ZFS pools, datasets, snapshots, and SMART disk monitoring built with Python FastAPI and HTMX. Runs on Linux, FreeBSD, and NetBSD. | website_candidate | 222 | few_or_no_signals (0 signals) |
+| [zippa-db](https://github.com/Alanaktion/zippa-db) | A fast, feature-complete Rust-based database GUI for devs | website_candidate | 1 | few_or_no_signals (1 signals) |

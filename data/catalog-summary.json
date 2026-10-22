@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-22T21:00:13Z",
+  "github_repository_candidates": 5751,
+  "first_party_reviewed_examples": 8,
+  "external_unreviewed_leads": 0,
+  "app_or_website_candidates_by_metadata": 2420,
+  "by_category": {
+    "AI & Agents": 3587,
+    "Business & Productivity": 37,
+    "Commerce & Food": 15,
+    "Creative & Media": 88,
+    "Data & Analytics": 56,
+    "Developer Tools": 1051,
+    "Education": 52,
+    "Finance": 20,
+    "Games & Entertainment": 96,
+    "Health & Wellness": 7,
+    "Other / Needs Review": 690,
+    "Social & Community": 22,
+    "Travel & Local": 30
+  },
+  "by_project_kind": {
+    "app_candidate": 1352,
+    "developer_tool": 1150,
+    "resource_or_directory": 174,
+    "template_or_demo": 242,
+    "unknown": 1765,
+    "website_candidate": 1068
+  },
+  "by_ai_slop_screen": {
+    "few_or_no_signals": 3312,
+    "multiple_signals_review_first": 706,
+    "some_signals_review": 1733
+  },
+  "notice": "Automated metadata classification is a lead triage aid, not a verification or quality verdict."
+}

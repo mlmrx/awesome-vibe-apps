@@ -1,0 +1,78 @@
+{
+  "source": "GitHub REST Search API",
+  "collected_at": "2026-10-22T20:55:29Z",
+  "queries": [
+    {
+      "query": "topic:vibe-coding stars:0..1 is:public fork:false",
+      "reported_total": 4787,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T20:47:07Z",
+      "unique_repositories_seen": 968
+    },
+    {
+      "query": "topic:vibe-coding stars:2..5 is:public fork:false",
+      "reported_total": 1153,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T20:48:24Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "topic:vibe-coding stars:6..10 is:public fork:false",
+      "reported_total": 367,
+      "pages_requested": 4,
+      "pages_received": 4,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T20:49:00Z",
+      "unique_repositories_seen": 367
+    },
+    {
+      "query": "topic:vibe-coding stars:>10 is:public fork:false",
+      "reported_total": 947,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T20:50:14Z",
+      "unique_repositories_seen": 947
+    },
+    {
+      "query": "topic:vibecoding stars:0..1 is:public fork:false",
+      "reported_total": 885,
+      "pages_requested": 9,
+      "pages_received": 9,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T20:51:49Z",
+      "unique_repositories_seen": 885
+    },
+    {
+      "query": "topic:vibe-coded stars:0..1 is:public fork:false",
+      "reported_total": 818,
+      "pages_requested": 9,
+      "pages_received": 9,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T20:53:10Z",
+      "unique_repositories_seen": 818
+    },
+    {
+      "query": "\"vibe coded\" in:readme is:public fork:false",
+      "reported_total": 115338,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T20:54:25Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe coding\" in:readme is:public fork:false",
+      "reported_total": 116409,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T20:55:29Z",
+      "unique_repositories_seen": 1000
+    }
+  ]
+}
