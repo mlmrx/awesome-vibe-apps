@@ -1,36 +1,50 @@
 {
-  "generated_at": "2026-10-22T21:00:13Z",
-  "github_repository_candidates": 5751,
-  "first_party_reviewed_examples": 8,
-  "external_unreviewed_leads": 0,
-  "app_or_website_candidates_by_metadata": 2420,
+  "generated_at": "2026-10-23T04:02:14Z",
+  "github_repository_candidates": 18892,
+  "first_party_reviewed_examples": 30,
+  "curated_project_url_http_statuses": {
+    "HTTP 200": 29,
+    "HTTP 404": 1
+  },
+  "external_unreviewed_leads": 1610,
+  "external_leads_by_source": {
+    "DEV Community": 243,
+    "Hacker News": 1334,
+    "Reddit r/vibecoding": 32,
+    "X profile bio": 1
+  },
+  "public_web_source_records": {
+    "devto_articles": 2402,
+    "hackernews_stories": 3916
+  },
+  "app_or_website_candidates_by_metadata": 6814,
   "by_category": {
-    "AI & Agents": 3587,
-    "Business & Productivity": 37,
-    "Commerce & Food": 15,
-    "Creative & Media": 88,
-    "Data & Analytics": 56,
-    "Developer Tools": 1051,
-    "Education": 52,
-    "Finance": 20,
-    "Games & Entertainment": 96,
-    "Health & Wellness": 7,
-    "Other / Needs Review": 690,
-    "Social & Community": 22,
-    "Travel & Local": 30
+    "AI & Agents": 2047,
+    "Business & Productivity": 534,
+    "Commerce & Food": 192,
+    "Creative & Media": 703,
+    "Data & Analytics": 429,
+    "Developer Tools": 6255,
+    "Education": 396,
+    "Finance": 210,
+    "Games & Entertainment": 430,
+    "Health & Wellness": 112,
+    "Other / Needs Review": 7156,
+    "Social & Community": 206,
+    "Travel & Local": 222
   },
   "by_project_kind": {
-    "app_candidate": 1352,
-    "developer_tool": 1150,
-    "resource_or_directory": 174,
-    "template_or_demo": 242,
-    "unknown": 1765,
-    "website_candidate": 1068
+    "app_candidate": 3832,
+    "developer_tool": 2001,
+    "resource_or_directory": 331,
+    "template_or_demo": 534,
+    "unknown": 9212,
+    "website_candidate": 2982
   },
   "by_ai_slop_screen": {
-    "few_or_no_signals": 3312,
-    "multiple_signals_review_first": 706,
-    "some_signals_review": 1733
+    "few_or_no_signals": 7381,
+    "multiple_signals_review_first": 6024,
+    "some_signals_review": 5487
   },
   "notice": "Automated metadata classification is a lead triage aid, not a verification or quality verdict."
 }

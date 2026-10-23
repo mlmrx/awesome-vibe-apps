@@ -4,27 +4,40 @@ An open directory and research corpus for apps built with AI coding tools, inclu
 
 ## Current snapshot
 
-As of 2026-10-22, this repository contains:
+<!-- SNAPSHOT:START -->
+As of 2026-10-23, this repository contains:
 
-- **5,751 unique public GitHub repository candidates** collected from vibe-coding topics and README phrase searches.
-- **2,420 app or website candidates** based on repository metadata cues. These are not individually confirmed apps.
-- **8 human-reviewed examples** with first-party build evidence, including projects found through the open web and X.
-- **2,439 repositories with two or more possible low-effort signals** in the metadata screen. These are a review queue, not a verdict that a project is AI-generated or “AI slop.”
+- **18,892 unique public GitHub repository candidates** from the recorded query set.
+- **6,814 app or website candidates** based on repository metadata cues.
+- **30 human-reviewed examples** with first-party build evidence.
+- **29 curated project URLs returned HTTP 200; 1 returned HTTP 404** on the checked date. Product workflows were not tested.
+- **1,610 unreviewed public web/X leads**.
+- **6,318 public DEV/Hacker News metadata records** behind those leads.
+- **11,511 GitHub candidates with two or more possible low-effort signals**, for review only.
 
-The large GitHub snapshot is deliberately broad and noisy. A topic tag or README search hit is a discovery lead, not proof of AI authorship, an app, quality, safety, or current availability. Counts and the rule-based classifications are generated from the checked-in snapshot.
+The corpus is intentionally broad and noisy. Source hits and machine labels are discovery aids, not proof of AI authorship, app status, quality, safety, or current availability.
+<!-- SNAPSHOT:END -->
 
 ## Browse
 
 - [Full categorized candidate index](catalog/index.md)
+- [Unreviewed web/X project lead index](catalog/external-leads.md)
 - [Machine-readable catalog](data/catalog.jsonl)
 - [Raw GitHub metadata snapshot](data/raw/github-repositories.jsonl)
-- [External web/X discovery leads](data/raw/external-leads.jsonl)
+- [Manual web/X discovery leads](data/raw/external-leads.jsonl)
+- [Generated API-derived project leads](data/raw/generated-external-leads.jsonl)
+- [API-collected DEV article metadata](data/raw/devto-articles.jsonl)
+- [API-collected Hacker News stories](data/raw/hackernews-stories.jsonl)
+- [Public web collection query snapshot](data/raw/public-web-search-snapshot.json)
 - [Search queries and collection details](data/raw/github-search-snapshot.json)
 - [Reviewed examples and first-party build evidence](data/curated.jsonl)
 - [Classification and evaluation methodology](docs/methodology.md)
+- [Project evaluation rubric](docs/evaluation-rubric.md)
 - [How to contribute](CONTRIBUTING.md)
 
 ## Human-reviewed examples
+
+The complete first-party evidence list, including 30 records in the current snapshot, is in [data/curated.jsonl](data/curated.jsonl). Project URL checks only establish the HTTP response on the recorded date; they do not establish that an app works.
 
 - **[Dev Confessions](https://worksnever.dev/)** — Anonymous space for developers to share confessions, wins, failures, and discoveries. The creator describes building it with Lovable in a [first-person build story](https://dev.to/willdew-dev/building-my-first-vibe-coded-app-without-touching-a-line-of-code-4pld).
 - **[MenuGen](https://menugen.app/)** — Turns a photo of a restaurant menu into images that help explain the dishes. The creator describes the Cursor and Claude build in a [first-person write-up](https://karpathy.bearblog.dev/vibe-coding-menugen/) and a companion [post on X](https://x.com/karpathy/status/1917961248031080455).
@@ -49,7 +62,8 @@ Requires Python 3.10+ and the GitHub CLI (gh) authenticated to GitHub. The colle
 
 ~~~powershell
 python scripts/collect_github.py
+python scripts/collect_public_web.py
 python scripts/build_catalog.py
 ~~~
 
-The collector queries GitHub directly, stores repository metadata and query provenance, and deduplicates by repository URL. GitHub Search results are capped per query, so the checked-in snapshot is a reproducible sample rather than an exhaustive census.
+The collectors use the public GitHub, DEV, and Hacker News APIs. They store metadata, source links, and query provenance; they do not copy article bodies. Search APIs cap result depth, so the checked-in snapshot is a reproducible, source-limited sample rather than an exhaustive census. X and other sites can be added as sourced leads; the project does not bypass logins, robots rules, or API restrictions.

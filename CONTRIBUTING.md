@@ -16,11 +16,14 @@ Use only the platform names that apply. At least one public first-party source m
 
 For unreviewed web or X leads, add one JSON object per line to data/raw/external-leads.jsonl. Keep the original project URL, discovery post/article URL, platform, discovery date, and a short factual note. The generated catalog will keep these as unreviewed source leads. A launch post, search result, or third-party claim can help discovery, but it does not verify AI authorship or product quality.
 
+API-derived records are written to `data/raw/generated-external-leads.jsonl`; do not edit that generated file by hand. Refresh them with `python scripts/collect_public_web.py`. Raw API metadata is limited to source titles, links, dates, and public counters; do not add copied article or comment bodies.
+
 ## Classification and review
 
 - Automated categories and project kinds are search aids. Correct them through the rules in scripts/build_catalog.py or by adding a human-reviewed record.
 - ai_slop_screen_signals lists observable metadata signals such as missing descriptions, no homepage link, very small repository size, or template/demo wording. Do not treat the screen as proof of generated origin or poor quality.
 - For a human app evaluation, record separate results for build evidence, reachability, functionality, user experience, maintenance, and security/privacy. Include the date, the exact project version or URL, and concrete findings.
+- Follow the [project evaluation rubric](docs/evaluation-rubric.md); an HTTP response or creator statement alone does not count as a functional or security review.
 - Keep unavailable projects in the record with their last known status; do not silently erase history.
 - Do not copy another directory's bulk dataset or private information. Link to the original project and evidence.
 

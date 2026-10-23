@@ -1,6 +1,6 @@
 {
   "source": "GitHub REST Search API",
-  "collected_at": "2026-10-22T20:55:29Z",
+  "collected_at": "2026-10-23T04:00:37Z",
   "queries": [
     {
       "query": "topic:vibe-coding stars:0..1 is:public fork:false",
@@ -73,6 +73,285 @@
       "search_cap_partial": true,
       "completed_at": "2026-10-22T20:55:29Z",
       "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe-coded\" in:readme is:public fork:false",
+      "reported_total": 115339,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T21:09:19Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibecoded\" in:readme is:public fork:false",
+      "reported_total": 21675,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T21:10:17Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe-coded app\" in:readme is:public fork:false",
+      "reported_total": 2009,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T21:11:25Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"built with lovable\" in:readme is:public fork:false",
+      "reported_total": 53288,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T21:12:36Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"made with lovable\" in:readme is:public fork:false",
+      "reported_total": 130,
+      "pages_requested": 2,
+      "pages_received": 2,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T21:12:46Z",
+      "unique_repositories_seen": 130
+    },
+    {
+      "query": "\"built with bolt\" in:readme is:public fork:false",
+      "reported_total": 609,
+      "pages_requested": 7,
+      "pages_received": 7,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T21:13:27Z",
+      "unique_repositories_seen": 609
+    },
+    {
+      "query": "\"built with cursor\" in:readme is:public fork:false",
+      "reported_total": 1188,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T21:14:38Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"built with claude\" in:readme is:public fork:false",
+      "reported_total": 27662,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T21:15:46Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"built using claude\" in:readme is:public fork:false",
+      "reported_total": 1621,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-22T21:16:55Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "topic:lovable is:public fork:false",
+      "reported_total": 806,
+      "pages_requested": 9,
+      "pages_received": 9,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T21:17:46Z",
+      "unique_repositories_seen": 806
+    },
+    {
+      "query": "topic:bolt-new is:public fork:false",
+      "reported_total": 57,
+      "pages_requested": 1,
+      "pages_received": 1,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-22T21:17:50Z",
+      "unique_repositories_seen": 57
+    },
+    {
+      "query": "\"vibe coded\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 101791,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:44:16Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe coded\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 7769,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:45:28Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe coding\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 102830,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:46:52Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe coding\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 7791,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:48:22Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe-coded\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 101795,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:49:35Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe-coded\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 7770,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:50:44Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibecoded\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 19312,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:52:02Z",
+      "unique_repositories_seen": 998
+    },
+    {
+      "query": "\"vibecoded\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 1420,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:53:16Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe-coded app\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 1792,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:54:29Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"vibe-coded app\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 128,
+      "pages_requested": 2,
+      "pages_received": 2,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-23T03:54:38Z",
+      "unique_repositories_seen": 128
+    },
+    {
+      "query": "\"built with cursor\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 1089,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:55:51Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"built with cursor\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 61,
+      "pages_requested": 1,
+      "pages_received": 1,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-23T03:55:55Z",
+      "unique_repositories_seen": 61
+    },
+    {
+      "query": "\"built with lovable\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 53159,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:57:07Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"built with lovable\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 152,
+      "pages_requested": 2,
+      "pages_received": 2,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-23T03:57:18Z",
+      "unique_repositories_seen": 152
+    },
+    {
+      "query": "\"built with lovable\" in:readme stars:6..10 is:public fork:false",
+      "reported_total": 7,
+      "pages_requested": 1,
+      "pages_received": 1,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-23T03:57:20Z",
+      "unique_repositories_seen": 7
+    },
+    {
+      "query": "\"built with lovable\" in:readme stars:>10 is:public fork:false",
+      "reported_total": 16,
+      "pages_requested": 1,
+      "pages_received": 1,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-23T03:57:22Z",
+      "unique_repositories_seen": 16
+    },
+    {
+      "query": "\"built with claude\" in:readme stars:0..1 is:public fork:false",
+      "reported_total": 25221,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:58:37Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"built with claude\" in:readme stars:2..5 is:public fork:false",
+      "reported_total": 1543,
+      "pages_requested": 10,
+      "pages_received": 10,
+      "search_cap_partial": true,
+      "completed_at": "2026-10-23T03:59:40Z",
+      "unique_repositories_seen": 1000
+    },
+    {
+      "query": "\"built with claude\" in:readme stars:6..10 is:public fork:false",
+      "reported_total": 350,
+      "pages_requested": 4,
+      "pages_received": 4,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-23T04:00:01Z",
+      "unique_repositories_seen": 350
+    },
+    {
+      "query": "\"built with claude\" in:readme stars:>10 is:public fork:false",
+      "reported_total": 610,
+      "pages_requested": 7,
+      "pages_received": 7,
+      "search_cap_partial": false,
+      "completed_at": "2026-10-23T04:00:37Z",
+      "unique_repositories_seen": 610
     }
   ]
 }

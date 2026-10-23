@@ -1,0 +1,667 @@
+{
+  "collected_at": "2026-10-22T21:12:56Z",
+  "sources": [
+    {
+      "name": "DEV Community public Articles API",
+      "api": "https://developers.forem.com/api/v1",
+      "records": 2402,
+      "query_stats": [
+        {
+          "query": "tag:vibecoding",
+          "reported_total": null,
+          "pages_requested_max": 25,
+          "pages_received": 25,
+          "records_seen": 2402,
+          "new_records_this_run": 0,
+          "page_cap_partial": false,
+          "completed_at": "2026-10-22T21:10:47Z"
+        }
+      ]
+    },
+    {
+      "name": "Hacker News Algolia Search API",
+      "api": "https://hn.algolia.com/api",
+      "records": 3916,
+      "query_stats": [
+        {
+          "query": "vibe coding [through-2024]",
+          "date_range_utc": {
+            "start_inclusive": "2007-01-01",
+            "end_exclusive": "2025-01-01"
+          },
+          "reported_total": 27,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 27,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:10:48Z"
+        },
+        {
+          "query": "vibe coding [2025-H1]",
+          "date_range_utc": {
+            "start_inclusive": "2025-01-01",
+            "end_exclusive": "2025-07-01"
+          },
+          "reported_total": 528,
+          "reported_pages": 6,
+          "pages_requested_max": 10,
+          "pages_received": 6,
+          "records_seen": 1000,
+          "new_records_this_run": 528,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:10:54Z"
+        },
+        {
+          "query": "vibe coding [2025-H2]",
+          "date_range_utc": {
+            "start_inclusive": "2025-07-01",
+            "end_exclusive": "2026-01-01"
+          },
+          "reported_total": 734,
+          "reported_pages": 8,
+          "pages_requested_max": 10,
+          "pages_received": 8,
+          "records_seen": 1000,
+          "new_records_this_run": 641,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:02Z"
+        },
+        {
+          "query": "vibe coding [2026-Q1]",
+          "date_range_utc": {
+            "start_inclusive": "2026-01-01",
+            "end_exclusive": "2026-04-01"
+          },
+          "reported_total": 518,
+          "reported_pages": 6,
+          "pages_requested_max": 10,
+          "pages_received": 6,
+          "records_seen": 1000,
+          "new_records_this_run": 2,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:07Z"
+        },
+        {
+          "query": "vibe coding [2026-Q2]",
+          "date_range_utc": {
+            "start_inclusive": "2026-04-01",
+            "end_exclusive": "2026-07-01"
+          },
+          "reported_total": 266,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:11Z"
+        },
+        {
+          "query": "vibe coding [2026-Q3]",
+          "date_range_utc": {
+            "start_inclusive": "2026-07-01",
+            "end_exclusive": "2026-10-01"
+          },
+          "reported_total": 212,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:13Z"
+        },
+        {
+          "query": "vibe coding [2026-Q4-to-2026-10-23]",
+          "date_range_utc": {
+            "start_inclusive": "2026-10-01",
+            "end_exclusive": "2026-10-23"
+          },
+          "reported_total": 49,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:14Z"
+        },
+        {
+          "query": "vibe coded [through-2024]",
+          "date_range_utc": {
+            "start_inclusive": "2007-01-01",
+            "end_exclusive": "2025-01-01"
+          },
+          "reported_total": 33,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 23,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:15Z"
+        },
+        {
+          "query": "vibe coded [2025-H1]",
+          "date_range_utc": {
+            "start_inclusive": "2025-01-01",
+            "end_exclusive": "2025-07-01"
+          },
+          "reported_total": 382,
+          "reported_pages": 4,
+          "pages_requested_max": 10,
+          "pages_received": 4,
+          "records_seen": 1000,
+          "new_records_this_run": 260,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:19Z"
+        },
+        {
+          "query": "vibe coded [2025-H2]",
+          "date_range_utc": {
+            "start_inclusive": "2025-07-01",
+            "end_exclusive": "2026-01-01"
+          },
+          "reported_total": 532,
+          "reported_pages": 6,
+          "pages_requested_max": 10,
+          "pages_received": 6,
+          "records_seen": 1000,
+          "new_records_this_run": 248,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:25Z"
+        },
+        {
+          "query": "vibe coded [2026-Q1]",
+          "date_range_utc": {
+            "start_inclusive": "2026-01-01",
+            "end_exclusive": "2026-04-01"
+          },
+          "reported_total": 597,
+          "reported_pages": 6,
+          "pages_requested_max": 10,
+          "pages_received": 6,
+          "records_seen": 1000,
+          "new_records_this_run": 31,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:31Z"
+        },
+        {
+          "query": "vibe coded [2026-Q2]",
+          "date_range_utc": {
+            "start_inclusive": "2026-04-01",
+            "end_exclusive": "2026-07-01"
+          },
+          "reported_total": 297,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:34Z"
+        },
+        {
+          "query": "vibe coded [2026-Q3]",
+          "date_range_utc": {
+            "start_inclusive": "2026-07-01",
+            "end_exclusive": "2026-10-01"
+          },
+          "reported_total": 301,
+          "reported_pages": 4,
+          "pages_requested_max": 10,
+          "pages_received": 4,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:37Z"
+        },
+        {
+          "query": "vibe coded [2026-Q4-to-2026-10-23]",
+          "date_range_utc": {
+            "start_inclusive": "2026-10-01",
+            "end_exclusive": "2026-10-23"
+          },
+          "reported_total": 89,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:38Z"
+        },
+        {
+          "query": "vibe-coded [through-2024]",
+          "date_range_utc": {
+            "start_inclusive": "2007-01-01",
+            "end_exclusive": "2025-01-01"
+          },
+          "reported_total": 0,
+          "reported_pages": 0,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:39Z"
+        },
+        {
+          "query": "vibe-coded [2025-H1]",
+          "date_range_utc": {
+            "start_inclusive": "2025-01-01",
+            "end_exclusive": "2025-07-01"
+          },
+          "reported_total": 290,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:42Z"
+        },
+        {
+          "query": "vibe-coded [2025-H2]",
+          "date_range_utc": {
+            "start_inclusive": "2025-07-01",
+            "end_exclusive": "2026-01-01"
+          },
+          "reported_total": 355,
+          "reported_pages": 4,
+          "pages_requested_max": 10,
+          "pages_received": 4,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:46Z"
+        },
+        {
+          "query": "vibe-coded [2026-Q1]",
+          "date_range_utc": {
+            "start_inclusive": "2026-01-01",
+            "end_exclusive": "2026-04-01"
+          },
+          "reported_total": 417,
+          "reported_pages": 5,
+          "pages_requested_max": 10,
+          "pages_received": 5,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:50Z"
+        },
+        {
+          "query": "vibe-coded [2026-Q2]",
+          "date_range_utc": {
+            "start_inclusive": "2026-04-01",
+            "end_exclusive": "2026-07-01"
+          },
+          "reported_total": 230,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:53Z"
+        },
+        {
+          "query": "vibe-coded [2026-Q3]",
+          "date_range_utc": {
+            "start_inclusive": "2026-07-01",
+            "end_exclusive": "2026-10-01"
+          },
+          "reported_total": 254,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:55Z"
+        },
+        {
+          "query": "vibe-coded [2026-Q4-to-2026-10-23]",
+          "date_range_utc": {
+            "start_inclusive": "2026-10-01",
+            "end_exclusive": "2026-10-23"
+          },
+          "reported_total": 79,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:56Z"
+        },
+        {
+          "query": "vibecoding [through-2024]",
+          "date_range_utc": {
+            "start_inclusive": "2007-01-01",
+            "end_exclusive": "2025-01-01"
+          },
+          "reported_total": 1,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 997,
+          "new_records_this_run": 1,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:11:57Z"
+        },
+        {
+          "query": "vibecoding [2025-H1]",
+          "date_range_utc": {
+            "start_inclusive": "2025-01-01",
+            "end_exclusive": "2025-07-01"
+          },
+          "reported_total": 487,
+          "reported_pages": 5,
+          "pages_requested_max": 10,
+          "pages_received": 5,
+          "records_seen": 997,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:02Z"
+        },
+        {
+          "query": "vibecoding [2025-H2]",
+          "date_range_utc": {
+            "start_inclusive": "2025-07-01",
+            "end_exclusive": "2026-01-01"
+          },
+          "reported_total": 667,
+          "reported_pages": 7,
+          "pages_requested_max": 10,
+          "pages_received": 7,
+          "records_seen": 997,
+          "new_records_this_run": 1,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:08Z"
+        },
+        {
+          "query": "vibecoding [2026-Q1]",
+          "date_range_utc": {
+            "start_inclusive": "2026-01-01",
+            "end_exclusive": "2026-04-01"
+          },
+          "reported_total": 457,
+          "reported_pages": 5,
+          "pages_requested_max": 10,
+          "pages_received": 5,
+          "records_seen": 997,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:13Z"
+        },
+        {
+          "query": "vibecoding [2026-Q2]",
+          "date_range_utc": {
+            "start_inclusive": "2026-04-01",
+            "end_exclusive": "2026-07-01"
+          },
+          "reported_total": 235,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 997,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:15Z"
+        },
+        {
+          "query": "vibecoding [2026-Q3]",
+          "date_range_utc": {
+            "start_inclusive": "2026-07-01",
+            "end_exclusive": "2026-10-01"
+          },
+          "reported_total": 182,
+          "reported_pages": 2,
+          "pages_requested_max": 10,
+          "pages_received": 2,
+          "records_seen": 997,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:18Z"
+        },
+        {
+          "query": "vibecoding [2026-Q4-to-2026-10-23]",
+          "date_range_utc": {
+            "start_inclusive": "2026-10-01",
+            "end_exclusive": "2026-10-23"
+          },
+          "reported_total": 45,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 997,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:19Z"
+        },
+        {
+          "query": "vibecoded [through-2024]",
+          "date_range_utc": {
+            "start_inclusive": "2007-01-01",
+            "end_exclusive": "2025-01-01"
+          },
+          "reported_total": 0,
+          "reported_pages": 0,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 904,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:20Z"
+        },
+        {
+          "query": "vibecoded [2025-H1]",
+          "date_range_utc": {
+            "start_inclusive": "2025-01-01",
+            "end_exclusive": "2025-07-01"
+          },
+          "reported_total": 252,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 904,
+          "new_records_this_run": 10,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:23Z"
+        },
+        {
+          "query": "vibecoded [2025-H2]",
+          "date_range_utc": {
+            "start_inclusive": "2025-07-01",
+            "end_exclusive": "2026-01-01"
+          },
+          "reported_total": 247,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 904,
+          "new_records_this_run": 14,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:26Z"
+        },
+        {
+          "query": "vibecoded [2026-Q1]",
+          "date_range_utc": {
+            "start_inclusive": "2026-01-01",
+            "end_exclusive": "2026-04-01"
+          },
+          "reported_total": 330,
+          "reported_pages": 4,
+          "pages_requested_max": 10,
+          "pages_received": 4,
+          "records_seen": 904,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:30Z"
+        },
+        {
+          "query": "vibecoded [2026-Q2]",
+          "date_range_utc": {
+            "start_inclusive": "2026-04-01",
+            "end_exclusive": "2026-07-01"
+          },
+          "reported_total": 178,
+          "reported_pages": 2,
+          "pages_requested_max": 10,
+          "pages_received": 2,
+          "records_seen": 904,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:32Z"
+        },
+        {
+          "query": "vibecoded [2026-Q3]",
+          "date_range_utc": {
+            "start_inclusive": "2026-07-01",
+            "end_exclusive": "2026-10-01"
+          },
+          "reported_total": 246,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 904,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:35Z"
+        },
+        {
+          "query": "vibecoded [2026-Q4-to-2026-10-23]",
+          "date_range_utc": {
+            "start_inclusive": "2026-10-01",
+            "end_exclusive": "2026-10-23"
+          },
+          "reported_total": 80,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 904,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:36Z"
+        },
+        {
+          "query": "vibe-code [through-2024]",
+          "date_range_utc": {
+            "start_inclusive": "2007-01-01",
+            "end_exclusive": "2025-01-01"
+          },
+          "reported_total": 0,
+          "reported_pages": 0,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:37Z"
+        },
+        {
+          "query": "vibe-code [2025-H1]",
+          "date_range_utc": {
+            "start_inclusive": "2025-01-01",
+            "end_exclusive": "2025-07-01"
+          },
+          "reported_total": 301,
+          "reported_pages": 4,
+          "pages_requested_max": 10,
+          "pages_received": 4,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:41Z"
+        },
+        {
+          "query": "vibe-code [2025-H2]",
+          "date_range_utc": {
+            "start_inclusive": "2025-07-01",
+            "end_exclusive": "2026-01-01"
+          },
+          "reported_total": 381,
+          "reported_pages": 4,
+          "pages_requested_max": 10,
+          "pages_received": 4,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:44Z"
+        },
+        {
+          "query": "vibe-code [2026-Q1]",
+          "date_range_utc": {
+            "start_inclusive": "2026-01-01",
+            "end_exclusive": "2026-04-01"
+          },
+          "reported_total": 439,
+          "reported_pages": 5,
+          "pages_requested_max": 10,
+          "pages_received": 5,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:49Z"
+        },
+        {
+          "query": "vibe-code [2026-Q2]",
+          "date_range_utc": {
+            "start_inclusive": "2026-04-01",
+            "end_exclusive": "2026-07-01"
+          },
+          "reported_total": 245,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:52Z"
+        },
+        {
+          "query": "vibe-code [2026-Q3]",
+          "date_range_utc": {
+            "start_inclusive": "2026-07-01",
+            "end_exclusive": "2026-10-01"
+          },
+          "reported_total": 269,
+          "reported_pages": 3,
+          "pages_requested_max": 10,
+          "pages_received": 3,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:54Z"
+        },
+        {
+          "query": "vibe-code [2026-Q4-to-2026-10-23]",
+          "date_range_utc": {
+            "start_inclusive": "2026-10-01",
+            "end_exclusive": "2026-10-23"
+          },
+          "reported_total": 84,
+          "reported_pages": 1,
+          "pages_requested_max": 10,
+          "pages_received": 1,
+          "records_seen": 1000,
+          "new_records_this_run": 0,
+          "search_cap_partial": false,
+          "completed_at": "2026-10-22T21:12:55Z"
+        }
+      ]
+    }
+  ],
+  "generated_candidate_leads": 1577,
+  "limits": [
+    "Article and story metadata only; no article bodies were copied.",
+    "DEV collection is limited to the vibecoding tag and the requested page cap.",
+    "Hacker News collection uses six phrase searches split into the recorded UTC time ranges and the requested page cap per query/range.",
+    "Hacker News Algolia may cap each date-sliced phrase result at 1,000 records; partial slices are flagged.",
+    "Search results are leads, not proof that a product used AI coding tools."
+  ]
+}

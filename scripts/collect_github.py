@@ -33,6 +33,37 @@ QUERIES = [
     "topic:vibe-coded stars:0..1 is:public fork:false",
     '"vibe coded" in:readme is:public fork:false',
     '"vibe coding" in:readme is:public fork:false',
+    '"vibe-coded" in:readme is:public fork:false',
+    '"vibecoded" in:readme is:public fork:false',
+    '"vibe-coded app" in:readme is:public fork:false',
+    '"built with lovable" in:readme is:public fork:false',
+    '"made with lovable" in:readme is:public fork:false',
+    '"built with bolt" in:readme is:public fork:false',
+    '"built with cursor" in:readme is:public fork:false',
+    '"built with claude" in:readme is:public fork:false',
+    '"built using claude" in:readme is:public fork:false',
+    "topic:lovable is:public fork:false",
+    "topic:bolt-new is:public fork:false",
+    '"vibe coded" in:readme stars:0..1 is:public fork:false',
+    '"vibe coded" in:readme stars:2..5 is:public fork:false',
+    '"vibe coding" in:readme stars:0..1 is:public fork:false',
+    '"vibe coding" in:readme stars:2..5 is:public fork:false',
+    '"vibe-coded" in:readme stars:0..1 is:public fork:false',
+    '"vibe-coded" in:readme stars:2..5 is:public fork:false',
+    '"vibecoded" in:readme stars:0..1 is:public fork:false',
+    '"vibecoded" in:readme stars:2..5 is:public fork:false',
+    '"vibe-coded app" in:readme stars:0..1 is:public fork:false',
+    '"vibe-coded app" in:readme stars:2..5 is:public fork:false',
+    '"built with cursor" in:readme stars:0..1 is:public fork:false',
+    '"built with cursor" in:readme stars:2..5 is:public fork:false',
+    '"built with lovable" in:readme stars:0..1 is:public fork:false',
+    '"built with lovable" in:readme stars:2..5 is:public fork:false',
+    '"built with lovable" in:readme stars:6..10 is:public fork:false',
+    '"built with lovable" in:readme stars:>10 is:public fork:false',
+    '"built with claude" in:readme stars:0..1 is:public fork:false',
+    '"built with claude" in:readme stars:2..5 is:public fork:false',
+    '"built with claude" in:readme stars:6..10 is:public fork:false',
+    '"built with claude" in:readme stars:>10 is:public fork:false',
 ]
 
 FIELDS = (
@@ -69,15 +100,36 @@ def run_gh_api(endpoint: str, *, q: str | None = None, page: int | None = None) 
     command = ["gh", "api", "-X", "GET", endpoint]
     if q is not None:
         command.extend(["-f", f"q={q}", "-F", f"per_page={PER_PAGE}", "-F", f"page={page}"])
-    result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
-    if result.returncode:
+    for attempt in range(6):
+        try:
+            result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=90)
+        except subprocess.TimeoutExpired:
+            if attempt == 5:
+                raise RuntimeError("gh api request timed out after six attempts")
+            wait = min(30, 2 ** (attempt + 1))
+            print(f"GitHub request timed out; retrying in {wait} seconds ({attempt + 1}/6).", flush=True)
+            time.sleep(wait)
+            continue
+        if result.returncode == 0:
+            return json.loads(result.stdout)
         message = result.stderr.strip() or result.stdout.strip()
-        if "rate limit" in message.lower() or "secondary rate limit" in message.lower():
-            print("GitHub search rate limit reached; waiting 65 seconds before retrying.", flush=True)
-            time.sleep(65)
-            return run_gh_api(endpoint, q=q, page=page)
+        lower = message.lower()
+        if "rate limit" in lower or "secondary rate limit" in lower:
+            wait = 65
+            print(f"GitHub search rate limit reached; waiting {wait} seconds before retry {attempt + 1}/6.", flush=True)
+            time.sleep(wait)
+            continue
+        transient_markers = (
+            "forcibly closed", "wsarecv", "connection reset", "connection aborted",
+            "timed out", "timeout", "unexpected eof", "tls handshake", "temporarily unavailable",
+        )
+        if any(marker in lower for marker in transient_markers) and attempt < 5:
+            wait = min(30, 2 ** (attempt + 1))
+            print(f"Transient GitHub connection error; retrying in {wait} seconds ({attempt + 1}/6).", flush=True)
+            time.sleep(wait)
+            continue
         raise RuntimeError(f"gh api failed ({result.returncode}): {message}")
-    return json.loads(result.stdout)
+    raise RuntimeError("gh api failed after six attempts")
 
 
 def read_jsonl(path: Path) -> dict[str, dict]:
@@ -87,7 +139,7 @@ def read_jsonl(path: Path) -> dict[str, dict]:
             for line in stream:
                 if line.strip():
                     row = json.loads(line)
-                    records[row["full_name"].lower()] = row
+                    records[str(row["id"])] = row
     return records
 
 
@@ -149,11 +201,18 @@ def main() -> int:
             for repo in payload.get("items", []):
                 if repo.get("visibility") not in (None, "public") or repo.get("fork"):
                     continue
-                key = repo["full_name"].lower()
+                key = str(repo["id"])
                 if key not in records:
                     records[key] = compact_repo(repo, query)
                 else:
                     record = records[key]
+                    if record.get("full_name") != repo.get("full_name"):
+                        previous_names = set(record.get("renamed_from", []))
+                        if record.get("full_name"):
+                            previous_names.add(record["full_name"])
+                        previous_names.discard(repo.get("full_name"))
+                        if previous_names:
+                            record["renamed_from"] = sorted(previous_names)
                     for field in FIELDS:
                         if field in repo:
                             record[field] = repo.get(field)
